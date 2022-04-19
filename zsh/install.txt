@@ -1,0 +1,5 @@
+1) ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+2) ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
+3) Plugins:
+    https://github.com/zsh-users/zsh-syntax-highlighting
+    https://github.com/zsh-users/zsh-autosuggestions

@@ -1,6 +1,8 @@
 # dotfiles
 My dotfiles
 
+Using pop_os!
+
 1) ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 2) ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
 3) 10k theme: https://github.com/romkatv/powerlevel10k

@@ -14,3 +14,4 @@ My dotfiles
   sudo apt-get install tmux
   ```
 7) LunarVim: https://www.lunarvim.org/01-installing.html#prerequisites
+8) Micro: curl https://getmic.ro | bash

@@ -80,6 +80,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git shrink-path zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.cargo/env
 
 # User configuration
 
@@ -94,6 +95,31 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+
+export PATH=/usr/local/go/bin:$PATH
+export PATH=$HOME/go/bin:$PATH
+export GO111MODULE=on
+export GOPATH=/home/acid/go
+export GOROOT=/usr/local/go
+
+export GOPRIVATE=*.itrf.tech
+export GOPROXY=https://proxy.golang.org,direct
+export GONOSUMDB=*
+#export GOTOOLDIR=/usr/local/go/bin/pkg/tool/linux_amd64
+#export PATH=$PATH:$(go env GOPATH)/bin
+
+export PATH=$PATH:$HOME/tools/node-v14.15.4-linux-x64/bin
+export PATH=$PATH:$HOME/miniconda3/bin
+export PATH=$PATH:$HOME/.emacs.d/bin
+
+export TERM=xterm-256color
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+
+source $HOME/.oh-my-zsh/custom/plugins/zsh-histdb/sqlite-history.zsh
+autoload -Uz add-zsh-hook
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

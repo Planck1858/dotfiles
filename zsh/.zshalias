@@ -33,10 +33,14 @@ then
 fi
 
 alias ls='$_ls_cmd -hF --color=auto'
-alias lal='$_ls_cmd -la --color=auto'
+alias lal='$_ls_cmd -lh --color=auto'
 alias la='$_ls_cmd -a --color=auto'
 alias ll='$_ls_cmd -l --color=auto'
 alias ldot='$_ls_cmd -ld .* --color=auto'
+alias kittyssh='kitty +kitten ssh'
+alias curlcp='/opt/cprocsp/bin/curl'
+alias lg='lazygit'
+alias ldc='lazydocker'
 
 if command -v bat &> /dev/null;
 then
